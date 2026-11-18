@@ -1,13 +1,17 @@
 # APEX RIOT · Vive al límite. Domina el caos.
 
+[![Ver sitio en Vercel](https://img.shields.io/badge/Ver%20sitio-apex--riot.vercel.app-C6FF00?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0B0B0D)](https://apex-riot.vercel.app/)
+
+**🔗 Sitio publicado: [apex-riot.vercel.app](https://apex-riot.vercel.app/)**
+
 Sitio web de una tienda **ficticia** de ropa técnica para motocross, MTB y calle, construido para el proyecto
 *"Sitio web con motion design para una tienda de ropa"*. El motion design es el núcleo: cada animación tiene una
 intención documentada en la [guía de movimiento](docs/guia-movimiento.md).
 
 > No se vende nada. El carrito y el pago son simulados.
 
-- **Sitio publicado:** `https://<proyecto>.vercel.app` *(reemplazar tras publicar)*
-- **Repositorio:** `https://github.com/<usuario>/apex-riot` *(reemplazar)*
+- **Sitio publicado:** <https://apex-riot.vercel.app/> (Vercel, se actualiza con cada `git push` a `main`)
+- **Páginas:** [Inicio](https://apex-riot.vercel.app/) · [Catálogo](https://apex-riot.vercel.app/catalogo.html) · [Detalle (casco)](https://apex-riot.vercel.app/producto.html?id=casco-apex-pro) · [Tee APEX RIOT 21](https://apex-riot.vercel.app/producto.html?id=tee-unicornio-riot) · [Carrito](https://apex-riot.vercel.app/carrito.html) · [Nosotros](https://apex-riot.vercel.app/nosotros.html) · [Contacto](https://apex-riot.vercel.app/contacto.html)
 
 ---
 
@@ -120,7 +124,7 @@ Pasos:
 3. En la configuración del proyecto dejar **Framework Preset: Other**, **Root Directory: `./`**
    y los comandos vacíos (los define `vercel.json`). Clic en **Deploy**.
 4. Cada `git push` a `main` publica una nueva versión; cada *pull request* genera una URL de vista previa.
-5. Medir Lighthouse sobre la URL `https://<proyecto>.vercel.app` (Chrome → incógnito → DevTools → Lighthouse → *Mobile*).
+5. Medir Lighthouse sobre <https://apex-riot.vercel.app/> (Chrome → incógnito → DevTools → Lighthouse → *Mobile*).
 
 > Importante: `js/3d/viewer3d.min.js`, `assets/img/renders/*.webp`, `assets/img/decals/*.png` y
 > `assets/models/tee-apex.apxc` son archivos generados **que se suben al repositorio**. Vercel no los vuelve a generar.

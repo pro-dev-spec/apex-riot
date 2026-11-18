@@ -4,7 +4,7 @@
 por defecto (móvil de gama media simulado, 4G lenta, CPU ×4) · **Servidor:** local con compresión (`npx serve`), con
 exactamente los archivos que publica Vercel (`.vercelignore`). Versión con las camisetas personalizadas.
 
-> Repetir sobre la URL de Vercel y actualizar esta tabla:
+> Sitio publicado: <https://apex-riot.vercel.app/>. Repetir la medición sobre esa URL y actualizar esta tabla:
 > Chrome → incógnito → DevTools → Lighthouse → *Mobile* → *Analyze page load*. En Vercel, `vercel.json` añade caché
 > de 7 días a imágenes, modelos y librerías, así que el aviso «Usar tiempos de vida de caché eficientes» debería desaparecer.
 
