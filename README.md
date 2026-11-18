@@ -195,15 +195,3 @@ Reparto sugerido de archivos por rol:
 | Modelo 3D del casco (STL) | Aportado por el equipo (`DirtBikeHelmet_stls.zip`). **Completar autor, enlace y licencia antes de entregar** | _Por confirmar_ |
 | Ilustraciones de producto, modelos 3D de prendas, logo, iconos, mapa, cascos de riders | Equipo APEX RIOT (SVG y geometría generados con código) | Propias |
 | Animación APEX Ignition | Equipo APEX RIOT (`tools/build_lottie.py`) | Propia |
-
-No se usan fotografías, videos ni sonidos externos. El único recurso 3D externo es el casco: citen su origen en la tabla. Los riders, testimonios, cifras, direcciones y redes sociales son ficticios.
-La marca APEX RIOT es inventada para fines académicos; antes de usar el nombre fuera del curso, verificar que no esté registrado.
-
-## Equipo
-
-| Integrante | Rol | Usuario de GitHub |
-|---|---|---|
-| _Nombre_ | Líder de proyecto y UX | @usuario |
-| _Nombre_ | Diseñador visual | @usuario |
-| _Nombre_ | Motion designer | @usuario |
-| _Nombre_ | Desarrollador | @usuario |
