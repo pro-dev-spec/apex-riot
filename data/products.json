@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "casco-apex-pro",
+    "sku": "AR-MX-005",
+    "name": "Casco APEX PRO",
+    "category": "MX",
+    "type": "helmet",
+    "model": "assets/models/helmet-mx.bin",
+    "price": 899900,
+    "badge": "NEW",
+    "number": "07",
+    "drop": true,
+    "description": "Carcasa de compuesto de fibra, visera ajustable, ventilación frontal y forro desmontable y lavable. Modelo 3D real: gíralo para ver cada entrada de aire.",
+    "features": [
+      "proteccion",
+      "ventilacion",
+      "resistente"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ácido / Asfalto",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      },
+      {
+        "name": "Electro / Grafito",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      }
+    ],
+    "renders": true
+  },
+  {
+    "id": "jersey-flux-mx",
+    "sku": "AR-MX-001",
+    "name": "Jersey FLUX MX",
+    "category": "MX",
+    "type": "jersey",
+    "price": 189900,
+    "badge": "NEW",
+    "number": "07",
+    "drop": false,
+    "description": "Tela de malla ventilada que expulsa el calor en cada salto. Corte atlético que no se sube con el viento y puños elásticos que se quedan en su sitio.",
+    "features": [
+      "ventilacion",
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ácido / Asfalto",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Electro / Grafito",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#C6FF00"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-flux-mx",
+    "sku": "AR-MX-002",
+    "name": "Pantalón FLUX MX",
+    "category": "MX",
+    "type": "pants",
+    "price": 349900,
+    "badge": "NEW",
+    "drop": false,
+    "description": "Paneles de cuero sintético en rodillas, cintura con ajuste de trinquete y tejido 600D que aguanta caídas, barro y piedras.",
+    "features": [
+      "proteccion",
+      "elastico",
+      "resistente"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "variants": [
+      {
+        "name": "Ácido / Asfalto",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "guantes-grip-x",
+    "sku": "AR-MX-003",
+    "name": "Guantes GRIP-X",
+    "category": "MX",
+    "type": "gloves",
+    "price": 99900,
+    "oldPrice": 124900,
+    "badge": "-20%",
+    "description": "Palma de una sola capa para sentir el manillar, nudillos con protección de TPR y dedos compatibles con pantalla táctil.",
+    "features": [
+      "proteccion",
+      "ventilacion",
+      "agarre"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ácido / Asfalto",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#8A8D93"
+      },
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#0B0B0D",
+        "accent": "#FF4D00",
+        "detail": "#F2F2EE"
+      }
+    ]
+  },
+  {
+    "id": "jersey-ignition",
+    "sku": "AR-MX-004",
+    "name": "Jersey IGNITION",
+    "category": "MX",
+    "type": "jersey",
+    "price": 179900,
+    "badge": "NEW",
+    "number": "21",
+    "drop": false,
+    "description": "La edición de carrera. Sublimado que no se cuartea, mangas raglán para más movilidad y cuello sin costuras que no roza.",
+    "features": [
+      "ventilacion",
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Asfalto / Ignición",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#FF4D00",
+        "detail": "#F2F2EE"
+      }
+    ]
+  },
+  {
+    "id": "goggles-visor-mx",
+    "sku": "AR-MX-006",
+    "name": "Goggles VISOR",
+    "category": "MX",
+    "type": "goggles",
+    "price": 189900,
+    "badge": "NEW",
+    "description": "Lente iridiscente antivaho con protección UV, espuma de triple capa y correa con silicona que no se resbala del casco.",
+    "features": [
+      "uv",
+      "proteccion",
+      "agarre"
+    ],
+    "sizes": [
+      "Única"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "peto-armor-mx",
+    "sku": "AR-MX-007",
+    "name": "Peto ARMOR",
+    "category": "MX",
+    "type": "chest",
+    "price": 329900,
+    "description": "Protección de pecho y espalda con placas de impacto, columna articulada y malla respirable entre paneles.",
+    "features": [
+      "proteccion",
+      "ventilacion",
+      "resistente"
+    ],
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "variants": [
+      {
+        "name": "Grafito / Ácido",
+        "family": "negro",
+        "base": "#1A1B1F",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "jersey-trailcut-mtb",
+    "sku": "AR-MTB-001",
+    "name": "Jersey TRAILCUT 3/4",
+    "category": "MTB",
+    "type": "jerseyLS",
+    "price": 159900,
+    "badge": "NEW",
+    "number": "88",
+    "drop": true,
+    "description": "Manga 3/4 para bajadas largas, tejido con protección UV 50+ y bolsillo oculto para la llave o el gel.",
+    "features": [
+      "ventilacion",
+      "uv",
+      "secado"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Electro / Grafito",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Electro",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#00E5FF",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-ridge-mtb",
+    "sku": "AR-MTB-002",
+    "name": "Pantalón RIDGE MTB",
+    "category": "MTB",
+    "type": "pants",
+    "price": 289900,
+    "description": "Tejido elástico en cuatro direcciones, repelente al agua y con espacio para rodilleras. Pedalea, empuja y baja sin pensar en la ropa.",
+    "features": [
+      "impermeable",
+      "elastico",
+      "proteccion"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "variants": [
+      {
+        "name": "Grafito / Electro",
+        "family": "negro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#8A8D93"
+      },
+      {
+        "name": "Asfalto / Ácido",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "guantes-ridge",
+    "sku": "AR-MTB-003",
+    "name": "Guantes RIDGE Lite",
+    "category": "MTB",
+    "type": "gloves",
+    "price": 84900,
+    "description": "Ligeros, transpirables y con palma reforzada en las zonas de más roce. Para rutas largas donde cada gramo cuenta.",
+    "features": [
+      "ventilacion",
+      "agarre",
+      "secado"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Electro / Grafito",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Asfalto",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#0B0B0D",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "goggles-trail-mtb",
+    "sku": "AR-MTB-004",
+    "name": "Goggles TRAIL",
+    "category": "MTB",
+    "type": "goggles",
+    "price": 159900,
+    "description": "Gran campo de visión para bajadas rápidas, ventilación superior y lente que no se empaña en la subida.",
+    "features": [
+      "uv",
+      "ventilacion"
+    ],
+    "sizes": [
+      "Única"
+    ],
+    "variants": [
+      {
+        "name": "Electro / Grafito",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      }
+    ]
+  },
+  {
+    "id": "rodilleras-impact-mtb",
+    "sku": "AR-MTB-005",
+    "name": "Rodilleras IMPACT",
+    "category": "MTB",
+    "type": "knee",
+    "price": 159900,
+    "oldPrice": 199900,
+    "badge": "-20%",
+    "description": "Espuma que se endurece con el impacto, manga elástica que no se baja al pedalear y dos correas de ajuste.",
+    "features": [
+      "proteccion",
+      "elastico",
+      "ventilacion"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "variants": [
+      {
+        "name": "Grafito / Electro",
+        "family": "negro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#8A8D93"
+      },
+      {
+        "name": "Asfalto / Ácido",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "chaqueta-storm-mtb",
+    "sku": "AR-MTB-006",
+    "name": "Chaqueta STORM",
+    "category": "MTB",
+    "type": "jacket",
+    "price": 389900,
+    "badge": "NEW",
+    "description": "Cortaviento impermeable con costuras selladas, cuello alto y paneles reflectivos. Se pliega en su propio bolsillo.",
+    "features": [
+      "impermeable",
+      "reflectivo",
+      "abrigo"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Electro / Asfalto",
+        "family": "electro",
+        "base": "#00E5FF",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Grafito / Electro",
+        "family": "negro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "casco-gate-bmx",
+    "sku": "AR-BMX-004",
+    "name": "Casco GATE BMX",
+    "category": "BMX",
+    "type": "helmet",
+    "model": "assets/models/helmet-mx.bin",
+    "price": 749900,
+    "number": "08",
+    "description": "Integral, como recomienda el reglamento de carrera de BMX. Ligero, con mentonera reforzada y visera corta para mirar la primera curva.",
+    "features": [
+      "proteccion",
+      "ventilacion",
+      "resistente"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ácido",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#C6FF00",
+        "detail": "#0B0B0D"
+      }
+    ],
+    "renders": true
+  },
+  {
+    "id": "jersey-gatedrop-bmx",
+    "sku": "AR-BMX-001",
+    "name": "Jersey GATE DROP",
+    "category": "BMX",
+    "type": "jerseyLS",
+    "price": 169900,
+    "badge": "NEW",
+    "number": "08",
+    "drop": true,
+    "description": "Manga larga reglamentaria para carreras de BMX. Tejido antidesgarro en codos, puños ajustados y espalda ventilada para salir de la rampa sin pensar en la ropa.",
+    "features": [
+      "resistente",
+      "ventilacion",
+      "elastico"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "pantalon-berm-bmx",
+    "sku": "AR-BMX-002",
+    "name": "Pantalón BERM BMX",
+    "category": "BMX",
+    "type": "pants",
+    "price": 259900,
+    "badge": "NEW",
+    "description": "Corte más estrecho que el de motocross para no engancharse en la cadena, con espacio para rodilleras y espinilleras y tejido 600D en las zonas de caída.",
+    "features": [
+      "proteccion",
+      "resistente",
+      "elastico"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ignición",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#FF4D00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Grafito / Ácido",
+        "family": "acido",
+        "base": "#1A1B1F",
+        "accent": "#C6FF00",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "guantes-pedal-bmx",
+    "sku": "AR-BMX-003",
+    "name": "Guantes PEDAL BMX",
+    "category": "BMX",
+    "type": "gloves",
+    "price": 79900,
+    "description": "Dedos completos, palma con silicona para el agarre en la salida y cierre de velcro que no se suelta en los saltos.",
+    "features": [
+      "agarre",
+      "proteccion",
+      "ventilacion"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#0B0B0D",
+        "accent": "#FF4D00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "hoodie-riot-core",
+    "sku": "AR-UR-001",
+    "name": "Hoodie RIOT Core",
+    "category": "URBAN",
+    "type": "hoodie",
+    "price": 219900,
+    "badge": "NEW",
+    "description": "Algodón pesado de 400 g, capucha doble y bolsillo canguro. Del garaje a la calle sin cambiarte.",
+    "features": [
+      "abrigo",
+      "resistente",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Asfalto",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#0B0B0D",
+        "detail": "#FF4D00"
+      }
+    ],
+    "drop": true
+  },
+  {
+    "id": "tee-apex-logo",
+    "sku": "AR-UR-002",
+    "name": "Camiseta APEX Logo",
+    "category": "URBAN",
+    "type": "tee",
+    "price": 89900,
+    "description": "La básica que no es básica. Algodón peinado, corte relajado y el logo de la A en el pecho.",
+    "features": [
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Ácido / Asfalto",
+        "family": "acido",
+        "base": "#C6FF00",
+        "accent": "#0B0B0D",
+        "detail": "#0B0B0D"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ]
+  },
+  {
+    "id": "gorra-riot-snap",
+    "sku": "AR-UR-003",
+    "name": "Gorra RIOT Snap",
+    "category": "URBAN",
+    "type": "cap",
+    "price": 79900,
+    "description": "Visera plana, cierre snapback y logo bordado en relieve. Talla única ajustable.",
+    "features": [
+      "uv",
+      "resistente"
+    ],
+    "sizes": [
+      "Única"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      }
+    ]
+  },
+  {
+    "id": "hoodie-ignition-zip",
+    "sku": "AR-UR-004",
+    "name": "Hoodie IGNITION Zip",
+    "category": "URBAN",
+    "type": "hoodie",
+    "price": 175900,
+    "oldPrice": 219900,
+    "badge": "-20%",
+    "description": "Cierre completo, tejido técnico que corta el viento y paneles reflectivos para rodar de noche.",
+    "features": [
+      "abrigo",
+      "impermeable",
+      "reflectivo"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Ignición / Asfalto",
+        "family": "ignicion",
+        "base": "#FF4D00",
+        "accent": "#0B0B0D",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Grafito / Ignición",
+        "family": "negro",
+        "base": "#1A1B1F",
+        "accent": "#FF4D00",
+        "detail": "#8A8D93"
+      }
+    ]
+  },
+  {
+    "id": "tee-telemetria",
+    "sku": "AR-UR-005",
+    "name": "Camiseta TELEMETRÍA",
+    "category": "URBAN",
+    "type": "tee",
+    "price": 94900,
+    "description": "Gráfico de telemetría en la espalda con la curva de una vuelta perfecta. Edición limitada.",
+    "features": [
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Grafito / Electro",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#C6FF00"
+      },
+      {
+        "name": "Hueso / Asfalto",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#0B0B0D",
+        "detail": "#FF4D00"
+      }
+    ]
+  },
+  {
+    "id": "chaqueta-dust-urban",
+    "sku": "AR-UR-006",
+    "name": "Chaqueta DUST",
+    "category": "URBAN",
+    "type": "jacket",
+    "price": 299900,
+    "description": "Ligera e impermeable, con bolsillos con cierre y el logo reflectivo en la espalda. Para ir y volver de la pista.",
+    "features": [
+      "impermeable",
+      "reflectivo"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Hueso / Asfalto",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#0B0B0D",
+        "detail": "#FF4D00"
+      }
+    ]
+  },
+  {
+    "id": "jersey-stripes-riot",
+    "sku": "AR-MX-008",
+    "name": "Jersey STRIPES RIOT",
+    "category": "MX",
+    "type": "jersey",
+    "model": "assets/models/jersey-stripes.apxc",
+    "price": 259900,
+    "badge": "NEW",
+    "drop": true,
+    "description": "Rayas verticales a todo el frente, cuello en V y puños de contraste, con el logo APEX RIOT al pecho y el 07 de la marca en la espalda. Modelo 3D real: gíralo para ver el dorsal.",
+    "features": [
+      "ventilacion",
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      },
+      {
+        "name": "Asfalto / Ácido",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Grafito / Electro",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      }
+    ],
+    "renders": true,
+    "number": "07",
+    "decal": {
+      "style": "jersey",
+      "number": "07",
+      "rect": [
+        -1.3,
+        -1.9,
+        1.3,
+        1.9
+      ]
+    }
+  },
+  {
+    "id": "tee-unicornio-riot",
+    "sku": "AR-UR-007",
+    "name": "Tee APEX RIOT 21",
+    "category": "URBAN",
+    "type": "tee",
+    "model": "assets/models/tee-apex.apxc",
+    "price": 99900,
+    "badge": "NEW",
+    "description": "Camiseta de algodón con la A de APEX gigante al frente y el 21 de la marca en la espalda; cuello y puños de contraste. Modelo 3D real: gírala para ver el dorsal.",
+    "features": [
+      "secado",
+      "elastico"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "variants": [
+      {
+        "name": "Asfalto / Ácido",
+        "family": "negro",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Grafito / Electro",
+        "family": "electro",
+        "base": "#1A1B1F",
+        "accent": "#00E5FF",
+        "detail": "#FF4D00"
+      },
+      {
+        "name": "Hueso / Ignición",
+        "family": "hueso",
+        "base": "#F2F2EE",
+        "accent": "#FF4D00",
+        "detail": "#0B0B0D"
+      }
+    ],
+    "renders": true,
+    "drop": true,
+    "number": "21",
+    "decal": {
+      "style": "tee",
+      "number": "21",
+      "rect": [
+        -1.3,
+        -1.9,
+        1.3,
+        1.9
+      ]
+    }
+  },
+  {
+    "id": "googles-brick-mtb",
+    "sku": "AR-MTB-007",
+    "name": "Googles BRICK",
+    "category": "MTB",
+    "type": "goggles",
+    "model": "assets/models/goggles-brick.apxc",
+    "finish": "plastic",
+    "price": 169900,
+    "badge": "NEW",
+    "description": "Marco de estilo ladrillo con muesca para la nariz y pasadores laterales. Modelo 3D real: gíralo para verlo por dentro.",
+    "features": [
+      "uv",
+      "proteccion",
+      "agarre"
+    ],
+    "sizes": [
+      "Única"
+    ],
+    "variants": [
+      {
+        "name": "Ácido",
+        "family": "acido",
+        "base": "#0B0B0D",
+        "accent": "#C6FF00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Ignición",
+        "family": "hueso",
+        "base": "#0B0B0D",
+        "accent": "#FF4D00",
+        "detail": "#F2F2EE"
+      },
+      {
+        "name": "Electro",
+        "family": "electro",
+        "base": "#0B0B0D",
+        "accent": "#00E5FF",
+        "detail": "#F2F2EE"
+      }
+    ],
+    "renders": true,
+    "drop": true
+  }
+]

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es" class="no-js" data-mode="MX" data-loader>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APEX RIOT · Vive al límite. Domina el caos.</title>
+<meta name="description" content="Tienda ficticia de equipo para motocross, MTB, BMX y calle. Proyecto universitario de motion design.">
+<meta name="theme-color" content="#0B0B0D">
+<meta property="og:title" content="APEX RIOT · Vive al límite. Domina el caos.">
+<meta property="og:description" content="Tienda ficticia de equipo para motocross, MTB, BMX y calle. Proyecto universitario de motion design.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/barlow-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+/* Antes de pintar: modo de deporte, preferencia de movimiento, transición de entrada y loader */
+!function(h){h.classList.remove('no-js');h.classList.add('js');try{var md=localStorage.getItem('apex-mode');if(/^(MX|MTB|BMX|URBAN)$/.test(md))h.setAttribute('data-mode',md)}catch(e){}var rm=!1,ss=sessionStorage;try{var s=localStorage.getItem('apex-motion');rm=s==='off'||(s!=='on'&&matchMedia('(prefers-reduced-motion: reduce)').matches)}catch(e){rm=matchMedia('(prefers-reduced-motion: reduce)').matches}if(rm){h.classList.add('rm');return}try{if(ss.getItem('apex-wipe')){ss.removeItem('apex-wipe');h.classList.add('is-entering')}else if(h.hasAttribute('data-loader')&&!ss.getItem('apex-loaded')){h.classList.add('show-loader')}ss.setItem('apex-loaded','1')}catch(e){}}(document.documentElement);
+</script>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preload" as="image" href="assets/img/renders/casco-apex-pro-0-front.webp" fetchpriority="high">
+</head>
+<body>
+<div class="loader" aria-hidden="true"><svg class="loader__mark" viewBox="-4 -4 108 108"><path d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z"/><path class="bar" d="M24 74 L84 56 L80 70 L20 88 Z"/></svg><span class="loader__count">APEX RIOT · CARGANDO</span></div>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="wipe" aria-hidden="true"><div class="wipe__panel wipe__panel--a"></div><div class="wipe__panel wipe__panel--b"><svg class="wipe__logo" viewBox="0 0 100 100"><path d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z"/><path d="M24 74 L84 56 L80 70 L20 88 Z"/></svg></div></div>
+<div class="scroll-progress" aria-hidden="true"></div>
+<header class="header">
+  <div class="header__inner">
+    <a class="brand" href="index.html" aria-label="APEX RIOT, ir al inicio"><svg viewBox="0 0 100 100" aria-hidden="true"><path class="a" d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z"/><path class="bar" d="M24 74 L84 56 L80 70 L20 88 Z"/></svg><span>APEX RIOT</span></a>
+    <nav class="nav" aria-label="Principal"><a href="index.html" aria-current="page">Inicio</a><a href="catalogo.html">Catálogo</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a></nav>
+    <div class="header__actions">
+      <button class="icon-btn motion-toggle" type="button" title="Activar o desactivar animaciones"><span class="dot" aria-hidden="true"></span><span class="label">MOTION</span><span class="sr-only">Animaciones</span></button>
+      <a class="icon-btn" href="carrito.html" data-cart-link aria-label="Carrito"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 4h3l2.4 11h10.2L21 7H7"/><circle cx="10" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg><span class="cart-badge">0</span></a>
+      <button class="icon-btn menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h12M3 17h18" stroke="currentColor" stroke-width="2"/></svg></button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil"><a href="index.html" aria-current="page">Inicio</a><a href="catalogo.html">Catálogo</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a><a href="carrito.html">Garaje</a><button class="btn btn--small motion-toggle" type="button" style="align-self:flex-start;margin-top:24px">Animaciones: <span class="label" style="display:inline">ON/OFF</span></button><p class="mono">VIVE AL LÍMITE · DOMINA EL CAOS</p></nav>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__bgword" aria-hidden="true">APEX</div>
+  <div class="speedlines" aria-hidden="true"><i style="top:14%;width:30%;animation-duration:1.8s;animation-delay:0s;--o:0.55"></i><i style="top:26%;width:18%;animation-duration:1.2s;animation-delay:0.6s;--o:0.8"></i><i style="top:38%;width:40%;animation-duration:2.4s;animation-delay:1.1s;--o:0.35"></i><i style="top:52%;width:22%;animation-duration:1.4s;animation-delay:0.3s;--o:0.7"></i><i style="top:63%;width:34%;animation-duration:2.0s;animation-delay:1.6s;--o:0.45"></i><i style="top:74%;width:16%;animation-duration:1.1s;animation-delay:0.9s;--o:0.9"></i><i style="top:86%;width:28%;animation-duration:1.7s;animation-delay:2.0s;--o:0.5"></i><i style="top:46%;width:12%;animation-duration:0.9s;animation-delay:2.4s;--o:0.9"></i></div>
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <div class="modes" role="tablist" aria-label="Elige tu deporte" data-hero="modes">
+        <span class="modes__pill" aria-hidden="true"></span>
+        <button class="modes__tab" role="tab" type="button" data-set-mode="MX" aria-selected="true">MX</button>
+        <button class="modes__tab" role="tab" type="button" data-set-mode="MTB" aria-selected="false" tabindex="-1">MTB</button>
+        <button class="modes__tab" role="tab" type="button" data-set-mode="BMX" aria-selected="false" tabindex="-1">BMX</button>
+        <button class="modes__tab" role="tab" type="button" data-set-mode="URBAN" aria-selected="false" tabindex="-1">Urban</button>
+      </div>
+      <p class="kicker" data-hero="kicker"><span data-mode-text="kicker">Motocross · Drop 07</span></p>
+      <h1 id="hero-title" class="hero__title" aria-live="polite"><span class="line"><span>Vive al</span></span><span class="line"><span class="accent">límite.</span></span><span class="line"><span class="outline-text">Domina</span></span></h1>
+      <p class="hero__copy" data-hero="copy"><strong>Ropa técnica para cada terreno.</strong> <span data-mode-text="copy">Jerseys ventilados y pantalones blindados para saltar más alto y caer mejor.</span></p>
+      <div class="hero__ctas" data-hero="ctas">
+        <a class="btn btn--solid btn--pulse" href="catalogo.html?cat=MX" data-mode-cta><span data-mode-text="cta">Equipo MX</span> <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></a>
+        <a class="btn" href="nosotros.html">El manifiesto</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__ring" aria-hidden="true"></div>
+      <div class="hero__ghost" aria-hidden="true"><svg class="garment" viewBox="0 0 400 440"  aria-label="Casco APEX PRO, Ácido / Asfalto, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv1u1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient></defs><image href="assets/img/renders/casco-apex-pro-0-front.webp" x="0" y="0" width="400" height="440" preserveAspectRatio="xMidYMid meet"/></svg></div>
+      <div class="hero__stage viewer3d" id="heroStage">
+        <a class="hero__product" href="producto.html?id=casco-apex-pro" aria-label="Producto estrella: Casco APEX PRO"><svg class="garment" viewBox="0 0 400 440" role="img" aria-label="Casco APEX PRO, Ácido / Asfalto, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv1u2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient></defs><image href="assets/img/renders/casco-apex-pro-0-front.webp" x="0" y="0" width="400" height="440" preserveAspectRatio="xMidYMid meet"/></svg></a>
+      </div>
+      <p class="drag-hint" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4" fill="none" stroke="currentColor" stroke-width="2"/></svg>Arrastra para girar 360°</p>
+      <div class="telemetry telemetry--a" aria-hidden="true"><span data-mode-text="t1">VEL. MÁX</span><b><span data-count="88">88</span> <span data-mode-text="t1u">KM/H</span></b></div>
+      <div class="telemetry telemetry--b" aria-hidden="true"><span data-mode-text="t2">PESO</span><b><span data-count="212">212</span> <span data-mode-text="t2u">G</span></b></div>
+    </div>
+  </div>
+  <div class="dtiles" role="group" aria-label="Elige tu disciplina">
+    <a class="dtile dtile--mx" href="catalogo.html?cat=MX" data-disc="MX"><span class="dtile__art" aria-hidden="true"></span><span class="dtile__num mono">01 / MOTOCROSS</span><span class="dtile__name">Motocross</span><span class="dtile__go mono"><i aria-hidden="true">&#9654;</i> Ver video y entrar</span></a>
+    <a class="dtile dtile--mtb" href="catalogo.html?cat=MTB" data-disc="MTB"><span class="dtile__art" aria-hidden="true"></span><span class="dtile__num mono">02 / MOUNTAIN BIKE</span><span class="dtile__name">MTB</span><span class="dtile__go mono"><i aria-hidden="true">&#9654;</i> Ver video y entrar</span></a>
+    <a class="dtile dtile--bmx" href="catalogo.html?cat=BMX" data-disc="BMX"><span class="dtile__art" aria-hidden="true"></span><span class="dtile__num mono">03 / BMX RACING</span><span class="dtile__name">BMX</span><span class="dtile__go mono"><i aria-hidden="true">&#9654;</i> Ver video y entrar</span></a>
+  </div>
+  <div class="hero__scroll mono" aria-hidden="true"><i></i>SCROLL</div>
+  <div class="marquee" data-marquee>
+    <div class="marquee__track"><div class="marquee__group"><span>Motocross</span><span>MTB</span><span>BMX</span><span>Urban</span><span>New drop</span><span>Ride the edge</span></div><div class="marquee__group" aria-hidden="true"><span>Motocross</span><span>MTB</span><span>BMX</span><span>Urban</span><span>New drop</span><span>Ride the edge</span></div></div>
+    <button class="marquee-pause" type="button" aria-label="Pausar la cinta animada" aria-pressed="false"><svg viewBox="0 0 14 14" aria-hidden="true"><path class="i-pause" d="M3 2h3v10H3zM8 2h3v10H8z" fill="currentColor"/></svg></button>
+  </div>
+</section>
+
+<section class="section section--surface slant--top" id="drop" aria-labelledby="drop-title">
+  <div class="container">
+    <div class="section-head">
+      <div><p class="kicker">Drop de la semana</p><h2 id="drop-title" class="h-lg" data-reveal="lines"><span class="line"><span>Recién salido</span></span><span class="line"><span>del garaje</span></span></h2></div>
+      <a class="btn" href="catalogo.html">Ver todo <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></a>
+    </div>
+    <div class="grid grid--4" id="dropGrid"></div>
+  </div>
+</section>
+
+<section class="disc" id="disciplinas" aria-labelledby="disc-title">
+  <div class="container disc__intro"><p class="kicker">Elige tu disciplina</p><h2 id="disc-title" class="h-lg" data-reveal="lines"><span class="line"><span>Cuatro terrenos.</span></span><span class="line"><span class="accent">Una actitud.</span></span></h2></div>
+  <div class="disc__track">
+    <a class="disc__panel disc__panel--mx" href="catalogo.html?cat=MX" data-disc="MX">
+      <div class="disc__copy"><span class="disc__num">01 / 04 · MOTOCROSS</span><h3 class="disc__name">MX</h3><p>Casco integral, goggles, peto, jerseys ventilados y pantalones blindados. Para saltar más alto y caer mejor.</p><span class="disc__go">Equípate <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span></div>
+      <div class="disc__art" aria-hidden="true"><svg class="garment" viewBox="0 0 400 440"  aria-label="Casco APEX PRO, Ácido / Asfalto, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv1u3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient></defs><image href="assets/img/renders/casco-apex-pro-0-front.webp" x="0" y="0" width="400" height="440" preserveAspectRatio="xMidYMid meet"/></svg></div>
+    </a>
+    <a class="disc__panel disc__panel--mtb" href="catalogo.html?cat=MTB" data-disc="MTB">
+      <div class="disc__copy"><span class="disc__num">02 / 04 · MOUNTAIN BIKE</span><h3 class="disc__name">MTB</h3><p>Manga 3/4 con protección UV y tejido elástico para pedalear subidas eternas y soltar frenos en la bajada.</p><span class="disc__go">Equípate <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span></div>
+      <div class="disc__art" aria-hidden="true"><svg class="garment" viewBox="0 0 400 440"  aria-label="Jersey TRAILCUT 3/4, Electro / Grafito, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv4u4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient><clipPath id="csrv4u4"><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z"/></clipPath></defs><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="#1A1B1F"/><g clip-path="url(#csrv4u4)"><polygon points="40,270 360,120 360,190 40,340" fill="#00E5FF"/><polygon points="40,352 360,202 360,212 40,362" fill="#F2F2EE"/><g transform="translate(232 228) scale(0.42)"><path d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z" fill="#F2F2EE"/><path d="M24 74 L84 56 L80 70 L20 88 Z" fill="#F2F2EE"/></g><text x="120" y="388" font-family="Space Mono,monospace" font-size="11" fill="#F2F2EE" opacity=".75">SKU//APX-88</text><line x1="2" y1="322" x2="56" y2="334" stroke="#00E5FF" stroke-width="28"/><line x1="398" y1="322" x2="344" y2="334" stroke="#00E5FF" stroke-width="28"/><polygon points="20,190 80,170 84,190 24,212" fill="#00E5FF"/><polygon points="380,190 320,170 316,190 376,212" fill="#00E5FF"/><path d="M90 150 L72 214 M310 150 L328 214" stroke="#000" stroke-opacity=".25" stroke-width="2"/><path d="M70 60 L90 140 M330 60 L310 140" stroke="#F2F2EE" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="url(#shsrv4u4)"/></g><path d="M138 42 Q200 118 262 42" fill="none" stroke="#F2F2EE" stroke-width="12" stroke-linecap="round"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="none" stroke="#000" stroke-opacity=".55" stroke-width="3" stroke-linejoin="round"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+    </a>
+    <a class="disc__panel disc__panel--bmx" href="catalogo.html?cat=BMX" data-disc="BMX">
+      <div class="disc__copy"><span class="disc__num">03 / 04 · BMX RACING</span><h3 class="disc__name">BMX</h3><p>Manga larga y pantalón largo, como pide el reglamento de carrera, con espacio para protecciones y agarre para salir primero de la gate.</p><span class="disc__go">Equípate <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span></div>
+      <div class="disc__art" aria-hidden="true"><svg class="garment" viewBox="0 0 400 440"  aria-label="Jersey GATE DROP, Ignición / Asfalto, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv5u5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient><clipPath id="csrv5u5"><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z"/></clipPath></defs><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="#FF4D00"/><g clip-path="url(#csrv5u5)"><polygon points="40,270 360,120 360,190 40,340" fill="#0B0B0D"/><polygon points="40,352 360,202 360,212 40,362" fill="#F2F2EE"/><g transform="translate(232 228) scale(0.42)"><path d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z" fill="#F2F2EE"/><path d="M24 74 L84 56 L80 70 L20 88 Z" fill="#F2F2EE"/></g><text x="120" y="388" font-family="Space Mono,monospace" font-size="11" fill="#F2F2EE" opacity=".75">SKU//APX-08</text><line x1="2" y1="322" x2="56" y2="334" stroke="#0B0B0D" stroke-width="28"/><line x1="398" y1="322" x2="344" y2="334" stroke="#0B0B0D" stroke-width="28"/><polygon points="20,190 80,170 84,190 24,212" fill="#0B0B0D"/><polygon points="380,190 320,170 316,190 376,212" fill="#0B0B0D"/><path d="M90 150 L72 214 M310 150 L328 214" stroke="#000" stroke-opacity=".25" stroke-width="2"/><path d="M70 60 L90 140 M330 60 L310 140" stroke="#F2F2EE" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="4 5" fill="none"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="url(#shsrv5u5)"/></g><path d="M138 42 Q200 118 262 42" fill="none" stroke="#F2F2EE" stroke-width="12" stroke-linecap="round"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="none" stroke="#000" stroke-opacity=".55" stroke-width="3" stroke-linejoin="round"/><path d="M140 40 Q200 70 260 40 L330 60 L372 200 L394 330 L348 340 L328 214 L310 150 L310 400 Q200 420 90 400 L90 150 L72 214 L52 340 L6 330 L28 200 L70 60 Z" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+    </a>
+    <a class="disc__panel disc__panel--urban" href="catalogo.html?cat=URBAN" data-disc="URBAN">
+      <div class="disc__copy"><span class="disc__num">04 / 04 · URBAN</span><h3 class="disc__name">URBAN</h3><p>La actitud de la pista, en la calle. Hoodies pesados, camisetas con gráficos de telemetría y gorras con la A.</p><span class="disc__go">Equípate <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></span></div>
+      <div class="disc__art" aria-hidden="true"><svg class="garment" viewBox="0 0 400 440"  aria-label="Hoodie RIOT Core, Asfalto / Ácido, vista frontal" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="shsrv6u6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient><clipPath id="csrv6u6"><path d="M120 70 Q200 95 280 70 L330 86 L386 332 L344 344 L300 172 L305 410 Q200 426 95 410 L100 172 L56 344 L14 332 L70 86 Z"/></clipPath></defs><path d="M118 78 Q112 8 200 6 Q288 8 282 78 Q200 112 118 78 Z" fill="#0B0B0D"/><path d="M118 78 Q112 8 200 6 Q288 8 282 78 Q200 112 118 78 Z" fill="#000" opacity=".22"/><path d="M118 78 Q112 8 200 6 Q288 8 282 78 Q200 112 118 78 Z" fill="none" stroke="#000" stroke-opacity=".55" stroke-width="3" stroke-linejoin="round"/><path d="M118 78 Q112 8 200 6 Q288 8 282 78 Q200 112 118 78 Z" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.5" stroke-linejoin="round"/><path d="M120 70 Q200 95 280 70 L330 86 L386 332 L344 344 L300 172 L305 410 Q200 426 95 410 L100 172 L56 344 L14 332 L70 86 Z" fill="#0B0B0D"/><g clip-path="url(#csrv6u6)"><rect x="80" y="388" width="240" height="30" fill="#C6FF00"/><line x1="30" y1="326" x2="70" y2="338" stroke="#C6FF00" stroke-width="30"/><line x1="370" y1="326" x2="330" y2="338" stroke="#C6FF00" stroke-width="30"/><path d="M134 296 L266 296 L288 380 L112 380 Z" fill="#000" opacity=".18"/><path d="M134 296 L266 296 L288 380 L112 380 Z" fill="none" stroke="#F2F2EE" stroke-opacity=".5" stroke-width="2" stroke-dasharray="5 5"/><text x="200" y="232" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="58" letter-spacing="2" fill="#C6FF00">APEX</text><path d="M178 98 L172 190 M222 98 L228 190" stroke="#F2F2EE" stroke-width="5" stroke-linecap="round"/><path d="M120 70 Q200 95 280 70 L330 86 L386 332 L344 344 L300 172 L305 410 Q200 426 95 410 L100 172 L56 344 L14 332 L70 86 Z" fill="url(#shsrv6u6)"/></g><path d="M146 74 Q200 118 254 74 Q200 52 146 74 Z" fill="#000" opacity=".7"/><path d="M120 70 Q200 95 280 70 L330 86 L386 332 L344 344 L300 172 L305 410 Q200 426 95 410 L100 172 L56 344 L14 332 L70 86 Z" fill="none" stroke="#000" stroke-opacity=".55" stroke-width="3" stroke-linejoin="round"/><path d="M120 70 Q200 95 280 70 L330 86 L386 332 L344 344 L300 172 L305 410 Q200 426 95 410 L100 172 L56 344 L14 332 L70 86 Z" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+    </a>
+  </div>
+</section>
+
+<section class="section section--surface slant--top" aria-labelledby="crew-title">
+  <div class="container">
+    <div class="section-head"><div><p class="kicker">Comunidad</p><h2 id="crew-title" class="h-lg" data-reveal="lines"><span class="line"><span>#APEXRIOT</span></span></h2></div><p class="muted" style="max-width:38ch;margin:0">Riders reales, barro real. Etiqueta tus rodadas y aparece aquí.</p></div>
+    <div class="community">
+      <article class="ugc ugc--a" data-reveal="clip">
+        <div class="ugc__art" aria-hidden="true"><svg viewBox="0 0 700 380" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2a10"/><stop offset="1" stop-color="#0B0B0D"/></linearGradient></defs><rect width="700" height="380" fill="url(#sky)"/><path d="M0 300 L120 190 L190 240 L300 110 L380 200 L460 150 L560 250 L700 160 L700 380 L0 380Z" fill="#14151a"/><path d="M0 330 L150 260 L260 300 L380 230 L520 290 L700 230 L700 380 L0 380Z" fill="#1A1B1F"/><path d="M40 350 C160 300 230 340 330 290 S520 250 660 200" fill="none" stroke="#C6FF00" stroke-width="3" stroke-dasharray="10 8"/><circle cx="660" cy="200" r="7" fill="#C6FF00"/><text x="40" y="60" font-family="Space Mono,monospace" font-size="13" fill="#00E5FF">RUTA 07 · LA CALERA · 42.3 KM · +1.280 M</text></svg></div>
+        <p class="kicker">Ruta de la semana</p><h3>La Calera<br>sin frenos</h3>
+      </article>
+      <article class="ugc ugc--b" data-reveal="clip"><p class="kicker">Pelotón</p><h3>12.400<br>riders</h3><p class="mono">Y CONTANDO · ÚNETE</p></article>
+      <article class="ugc ugc--c" data-reveal><p class="mono accent">@dani.mx · enduro</p><h3 style="font-size:2rem">“Caí tres veces. Volví cuatro.”</h3></article>
+      <article class="ugc ugc--d" data-reveal><p class="kicker">Evento</p><h3 style="font-size:2.2rem">Rodada nocturna</h3><p class="mono">SÁB · 22:00 · PISTA NORTE</p></article>
+      <article class="ugc ugc--e" data-reveal><p class="mono accent">@sofi.dh · downhill</p><h3 style="font-size:2rem">“Diseñada para el barro. Comprobado.”</h3></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="ben-title">
+  <div class="container">
+    <h2 id="ben-title" class="sr-only">Beneficios</h2>
+    <div class="benefits" data-reveal>
+      <div class="benefit"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 7h12v9H2zM14 10h4l3 3v3h-7"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg><h3>Envío gratis</h3><p>En compras desde $300.000 a toda Colombia.</p></div>
+      <div class="benefit"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12a8 8 0 1 0 3-6.2M4 4v4h4"/></svg><h3>30 días de cambio</h3><p>Si no te queda, la cambias sin preguntas.</p></div>
+      <div class="benefit"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z"/></svg><h3>Garantía 1 año</h3><p>Costuras y cierres probados en pista.</p></div>
+      <div class="benefit"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg><h3>Pago simulado</h3><p>Proyecto académico: no se cobra nada.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface slant--top" aria-labelledby="nl-title">
+  <div class="container newsletter">
+    <div><p class="kicker">Newsletter</p><h2 id="nl-title" class="h-lg" data-reveal="lines"><span class="line"><span>Únete al</span></span><span class="line"><span class="accent">pelotón</span></span></h2><p class="muted" style="margin-top:18px">Drops antes que nadie, rutas y eventos. Cero spam.</p></div>
+    <form class="newsletter__form" id="newsletter" novalidate>
+      <div class="field"><label for="nl-email">Tu correo</label><input class="input" id="nl-email" name="email" type="email" autocomplete="email" placeholder="rider@correo.com" required><span class="error" aria-live="polite"></span></div>
+      <button class="btn btn--solid" type="submit" style="align-self:flex-start;margin-top:26px">Entrar <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></button>
+      <p class="newsletter__msg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<div class="dintro" id="dintro" role="dialog" aria-modal="true" aria-labelledby="dintroTitle" hidden>
+  <video class="dintro__video" muted loop playsinline preload="none" hidden></video>
+  <div class="speedlines" aria-hidden="true"><i style="top:14%;width:30%;animation-duration:1.8s;animation-delay:0s;--o:0.55"></i><i style="top:26%;width:18%;animation-duration:1.2s;animation-delay:0.6s;--o:0.8"></i><i style="top:38%;width:40%;animation-duration:2.4s;animation-delay:1.1s;--o:0.35"></i><i style="top:52%;width:22%;animation-duration:1.4s;animation-delay:0.3s;--o:0.7"></i><i style="top:63%;width:34%;animation-duration:2.0s;animation-delay:1.6s;--o:0.45"></i><i style="top:74%;width:16%;animation-duration:1.1s;animation-delay:0.9s;--o:0.9"></i><i style="top:86%;width:28%;animation-duration:1.7s;animation-delay:2.0s;--o:0.5"></i><i style="top:46%;width:12%;animation-duration:0.9s;animation-delay:2.4s;--o:0.9"></i></div>
+  <div class="dintro__art" aria-hidden="true"></div>
+  <div class="container dintro__text">
+    <p class="kicker" id="dintroKicker"></p>
+    <h2 class="dintro__title" id="dintroTitle"></h2>
+    <p class="dintro__copy" id="dintroCopy"></p>
+  </div>
+  <div class="dintro__bar container">
+    <button class="btn" type="button" id="dintroClose">Cerrar</button>
+    <a class="btn btn--solid" id="dintroGo" href="catalogo.html" data-no-wipe>Ver equipo <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h16M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/></svg></a>
+  </div>
+  <div class="dintro__prog" aria-hidden="true"></div>
+</div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="APEX RIOT, ir al inicio"><svg viewBox="0 0 100 100" aria-hidden="true"><path class="a" d="M0 100 L40 0 L60 0 L100 100 L78 100 L50 28 L22 100 Z"/><path class="bar" d="M24 74 L84 56 L80 70 L20 88 Z"/></svg><span>APEX RIOT</span></a>
+        <p class="muted" style="margin-top:16px;max-width:34ch">Ropa técnica para motocross, MTB y calle. Diseñada para el barro, lista para la ciudad.</p>
+      </div>
+      <div><h2>TIENDA</h2><ul><li><a href="catalogo.html">Todo el catálogo</a></li><li><a href="catalogo.html?cat=MX">Motocross</a></li><li><a href="catalogo.html?cat=MTB">MTB</a></li><li><a href="catalogo.html?cat=BMX">BMX</a></li><li><a href="catalogo.html?cat=URBAN">Urban</a></li></ul></div>
+      <div><h2>MARCA</h2><ul><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="carrito.html">Tu garaje</a></li></ul></div>
+      <div><h2>COMUNIDAD</h2><ul><li><a href="#" aria-label="Instagram (cuenta ficticia)">Instagram</a></li><li><a href="#" aria-label="TikTok (cuenta ficticia)">TikTok</a></li><li><a href="#" aria-label="YouTube (cuenta ficticia)">YouTube</a></li></ul></div>
+    </div>
+    <div class="footer__big" aria-hidden="true">APEX RIOT</div>
+    <div class="footer__bottom"><span>© 2026 APEX RIOT · Marca ficticia para un proyecto universitario. No se realizan ventas.</span><span class="mono">BOG · 4°36′N 74°04′W</span></div>
+  </div>
+</footer>
+<script src="js/vendor/gsap.min.js" defer></script>
+<script src="js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="js/vendor/lenis.min.js" defer></script>
+<script src="js/garments.js" defer></script>
+<script src="js/core.js" defer></script>
+<script src="js/pages/home.js" defer></script>
+</body>
+</html>

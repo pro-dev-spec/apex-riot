@@ -1,0 +1,16 @@
+{
+  "name": "apex-riot",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Tienda ficticia APEX RIOT · proyecto universitario de motion design",
+  "scripts": {
+    "build:3d": "esbuild js/src/viewer3d.js --bundle --format=esm --minify --target=es2019 --outfile=js/3d/viewer3d.min.js --legal-comments=eof",
+    "build:lottie": "python3 tools/build_lottie.py",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "delaunator": "^5.0.1",
+    "esbuild": "^0.25.0",
+    "three": "^0.187.0"
+  }
+}

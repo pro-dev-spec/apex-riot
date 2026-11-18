@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><base href="../"><title>Render de productos</title>
+<style>html,body{margin:0;background:transparent}#stage{width:400px;height:440px;position:relative}#stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important}</style>
+<script src="js/vendor/gsap.min.js"></script><script src="js/garments.js"></script></head>
+<body><div id="stage"></div>
+<script type="module">
+/* Página auxiliar para tools/render_products.py: renderiza un producto 3D con fondo transparente */
+import { createViewer } from './js/3d/viewer3d.min.js';
+const q = new URLSearchParams(location.search);
+const ps = await (await fetch('data/products.json')).json();
+const p = ps.find((x) => x.id === q.get('id'));
+const v = createViewer(document.getElementById('stage'), { reducedMotion: true, autoRotate: false, startRotation: +q.get('rot') || 0, accent: q.get('accent') || '#C6FF00' });
+await v.setProduct(p, +q.get('v') || 0, 'none');
+document.querySelector('canvas').style.opacity = 1;
+requestAnimationFrame(() => requestAnimationFrame(() => { window.ready = true; }));
+</script></body></html>
